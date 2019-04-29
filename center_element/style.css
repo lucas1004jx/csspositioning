@@ -1,0 +1,45 @@
+.ele{
+    background: var(--element-color1);
+    height: 100px;
+    text-align: center;
+}
+.ele div{
+    background: var(--element-color2);
+}
+.c1-1{
+    width: 150px;
+    margin: auto;   
+}
+.c2{
+    text-align: center;
+}
+.c2-1{
+    display: inline-block;
+}
+
+.c3{
+    position: relative;
+    
+}
+.c3-1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.c4{
+    display: flex;
+}
+.c4-1{
+    margin: auto;
+}
+.c5-1{
+    line-height: 100px;
+    padding: 0 !important;
+    
+}
+
+.ex1-1 p{
+    display: inline-block;
+    text-align: left;
+}

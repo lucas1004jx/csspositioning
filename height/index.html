@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Height</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>height</h1>
+        <section>
+                <h2>Exercise 1</h2>
+                <blockquote>
+                &lt;div class="container"&gt;
+                    &lt;div class="inner"&gt;
+                        &lt;div class="content">content&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                </blockquote>
+
+                <blockquote>
+                .container {
+                    width:400px;
+                    height:400px;
+                    padding:20px;
+                    position:relative;
+                }
+                </blockquote>
+                <blockquote>
+                .content{
+                    height:100%; 
+                }
+                </blockquote>
+                <div class="ex ex1-1">
+                    <div class="ex1_inner ex1-1_inner ">
+                        <div class="result1">result1</div>
+                    </div>
+                </div>
+                <blockquote>
+                .container {
+                    width:400px;
+                    height:400px;
+                    padding:20px;
+                    position:relative;
+                }
+                .inner{
+                    height:50%;
+                }
+                .content{
+                    height:100%; 
+                }
+                </blockquote>
+                <div class="ex ex1-2">
+                    <div class="ex1_inner ex1-2_inner">
+                        <div class="result2">result 3</div>
+                    </div>
+                </div>
+                <blockquote>
+                .container {
+                    width:400px;
+                    height:400px;
+                    padding:20px;
+                    position:relative;
+                }
+                .content{
+                    position:absolute;
+                    width100%;
+                    height:100%; 
+                }
+                </blockquote>
+                <div class="ex ex1-3">
+                    <div class="ex1_inner ex1-3_inner">
+                        <div class="result3">result 3</div>
+                    </div>
+                </div>
+                 <blockquote>
+                .container {
+                    width:400px;
+                    height:400px;
+                    padding:20px;
+                    position:relative;
+                }
+                .inner{
+                    min-height:300px;
+                }
+                .content{
+                    position:absolute;
+                    width100%;
+                    height:100%; 
+                }
+                </blockquote>
+                <div class="ex ex1-4">
+                    <div class="ex1_inner ex1-4_inner">
+                        <div class="result4">result 4</div>
+                    </div>
+                </div>
+            </section>
+           
+    </main>
+
+    <script>
+        const exercises = document.querySelectorAll('.ex');
+        exercises.forEach(function(ex){
+           ex.addEventListener('click', function(){
+               this.classList.add('show');
+           },false)
+        })
+    </script>
+</body>
+</html>

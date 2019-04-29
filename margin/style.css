@@ -1,0 +1,99 @@
+
+.m1-1{
+    background: url('../img_1.jpeg');
+    background-color: var(--element-color1);
+    margin-bottom: 15px;
+}
+
+.m1-2{
+    background-color: var(--element-color2);
+    display: inline-block;
+}
+.m2-1{
+    background-color: var(--element-color1);
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.m2-2{
+    background-color: var(--element-color2);
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.m3{
+    background: var(--element-color1);
+    width: 400px;
+    height: 200px;
+}
+.m3-1{
+    background: var(--element-color2);
+    margin-top:10%;
+    margin-left: 10%;
+}
+
+.m4{
+    background: url('../img_1.jpeg');
+    background-color: var(--element-color1);
+    height: 150px;
+}
+.m4-1{
+    text-align: center;
+    background: var(--element-color2);
+    margin: 0;
+    padding: 15px;
+}
+
+.m5{
+    
+}
+
+.m5-1{
+    background: var(--element-color1);
+    margin-bottom: 15px !important;
+}
+.m5-2{
+    position: relative;
+    height: 120px;
+    background: var(--element-color2);
+    margin-bottom: 15px;
+}
+.m5-2_inner{
+    position: absolute;
+    background: var(--element-color3);
+    left:0;
+    right: 0;
+}
+.m5-3{
+    background: var(--element-color1);
+    display: flex;
+    height: 150px;
+    align-items: flex-start;
+}
+.m5-3 div{
+    background: var(--element-color2);
+    margin-right: 15px;
+}
+.ex1 ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+}
+.ex1{
+    overflow: hidden;
+}
+.ex1 li{
+    background: var(--element-color1);
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.ex1 li:last-child{
+   
+}

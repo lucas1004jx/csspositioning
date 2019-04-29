@@ -1,0 +1,104 @@
+:root{
+    --body-bg:#b9d6e4;
+    --element-color1:rgb(80, 183, 214);
+    --element-color2:rgb(70, 136, 223);
+    --element-color3:rgb(70, 93, 223);
+    --font-color:#4A4A4A;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--body-bg);
+    color:var(--font-color);
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+section{
+    padding: 15px;
+    border-bottom: 4px solid var(--body-bg);
+}
+section:last-child{
+    border-bottom: none;
+}
+h2,p{
+    margin: 10px 0;
+}
+
+h1{
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin: 0;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+[class^="ex"] {
+    color:#fff;
+}
+
+.ex1 {
+    background-color: var(--element-color1);
+  }
+  .ex1-a {
+    display: block;
+    width: 100%;
+    margin: 0 10px;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--element-color2);
+    border-top: 1px solid var(--element-color3);
+    color: #fff;
+  }
+  .ex1-a:first-child { border-top: 0; }
+  .ex1-a:last-child { border-bottom: 0;}
+
+  .ex3 ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ex3 li{
+    background: var(--element-color1);
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    text-align: center;
+}
+.ex2{
+padding-bottom: 56.25%;
+position: relative;
+}
+.ex2 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ex3 li:last-child{
+    margin-right: 0;
+}
+
+.ex4{
+    background: var(--element-color1);
+}
+
+.ex5{
+    background: var(--element-color1);
+    width: 50%;
+    max-width: 400px;
+}

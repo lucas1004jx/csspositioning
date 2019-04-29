@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>margin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>margin</h1>
+        <section>
+            <div>
+                <h2>1. Margin can change element width (positive or negative margin)</h2>
+                <p>only if the element has <strong>fill-available character</strong>. it doesn´t work if the element has a specific width.</p>
+            </div>
+            <div class="ele m1">
+                <div class="m1-1">
+                    <h3>Margin Example 1-1</h3>
+                    <p>block. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt est fugit facere dolorumaperiam voluptatibus quaerat repellendus temporibus obcaecati aliquid soluta aspernatur, ipsamitaque! Architecto debitis omnis voluptates itaque.</p>
+                </div>
+                <div class="m1-2">
+                    <h3>Margin Example 1-2</h3>
+                    <p>Inline block. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>2. Margin can change element position (positive or negative margin)</h2>
+                <p>margin top and left change itself´s position and margin right and bottom change its sibling´s position</p>
+            </div>
+            <div class="ele m2">
+                <div class="m2-1">
+                    <h3>Margin Example 2-1</h3>
+                    <p>block</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ratione, nam eos corporis perferendis minus aliquam quasi sapiente atque maxime obcaecati delectus a et mollitia nihil! Molestias sint aliquid consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid asperiores dolore reprehenderit, fugit eius a doloremque, quisquam deleniti possimus tempora quod cupiditate quia. Consequuntur nemo atque eos totam voluptates.</p>
+                </div>
+                <div class="m2-2">
+                    <h3>Margin Example 2-2</h3>
+                    <p>Inline block</p>
+                </div>
+                <div class="m2-2">
+                        <h3>Margin Example 2-3</h3>
+                        <p>Inline block</p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>3. Margin Percetage</h2>
+                <p>Margin percetage is relative to its container</p>
+            </div>
+            <div class="ele m3">
+                <div class="m3-1">
+                  <p>margin-top: 10%;</p>  
+                  <p>margin-left: 10%;</p>  
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>4. Margin Collapse</h2>
+                <p>Margin collapse only happens with block element and in vertival direction.</p>
+                <p>Ways to avoid margin collapse: set inline-block, add border, add padding to the container </p>
+            </div>
+            <div class="ele m4">
+        <h3 class="m4-1">
+            A Header 
+        </h3>
+    </div>
+        </section>
+        <section>
+            <div>
+                <h2>5. Margin Auto</h2>
+                <p>Some element can fill all the available space even without declaring any width or height. Exception: flexbox</p>
+            </div>
+            <div class="ele m5">
+                <div class="m5-1">
+                    <h3>Block element</h3>
+                </div>
+                <div class="m5-2">
+                    <div class="m5-2_inner">
+                        <h3>position absolute</h3>
+                        <p>left:0;right:0;</p>
+                    </div>
+                </div>
+                <div class="m5-3">
+                    <div>flex 1</div>
+                    <div>flex 2</div>
+                    <div>flex 3</div>
+                    <div>flex 4</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Exercise 1</h2>
+                <p>make each element white space equal</p>
+            </div>
+            <div class="ex1">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    
+    
+    
+</body>
+
+</html>
